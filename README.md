@@ -39,6 +39,6 @@ dig google.com @127.0.0.1 +tcp
 
 ## Considerations
 ### Security
-asasasas
+* Firewall and Network Security - Use firewalls to control traffic to and from your DNS server. Ensure network security policies are in place to only allow necessary traffic on port 53 (both TCP and UDP).
 ### Deploy in distributed, microservices-oriented architecture
 asasasas
