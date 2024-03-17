@@ -28,7 +28,7 @@ docker pull kerezov/dnstls:1.1
 ```
 docker run -d -p 127.0.0.1:53:53 -p 127.0.0.1:53:53/udp kerezov/dnstls:1.1
 ```
-This will start the container locally and it will listen on the localhost interface on port 53 UDP and TCP
+This will start the container locally and it will listen on the localhost interface on port 53 (UDP and TCP)    
 
 * You can test if the resolving works with NSLOOKUP or DIG for example:
 ```
