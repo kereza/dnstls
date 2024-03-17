@@ -40,5 +40,8 @@ dig google.com @127.0.0.1 +tcp
 ## Considerations
 ### Security
 * Firewall and Network Security - Use firewalls to control traffic to and from your DNS server. Ensure network security policies are in place to only allow necessary traffic on port 53 (both TCP and UDP).
+* DDoS Protection - Be prepared for Distributed Denial of Service (DDoS) attacks. Consider using DDoS mitigation services or techniques if your DNS server is public-facing.
+* Patching and Software Updates - Keep your DNS server software and the underlying operating system up-to-date with the latest security patches.
+* Redundancy and Failover - Implement redundancy and failover mechanisms to maintain DNS availability in case of server or network failures.
 ### Deploy in distributed, microservices-oriented architecture
 asasasas
