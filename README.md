@@ -12,11 +12,11 @@ and forward the queries over TLS to Cloudflare public DNS. There is also Docker 
 
 ### Executing program
 
-* If you would like to build the Dcoker image locally, clone the repo and from inside the folder:
+* If you would like to build the Dcoker image locally, clone the repo and from inside the folder run:
 ```
 docker build -t name:tag .
 ```
-name - the name of the image which you want to give. For example dnstls
+name - the name of the image which you want to give. For example dnstls <br>
 tag - the version of the image. For example 1.0
 
 * If you would like to download the Docker image for public DockerHUb:
