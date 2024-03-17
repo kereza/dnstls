@@ -36,3 +36,6 @@ nslookup google.com 127.0.0.1
 
 dig google.com @127.0.0.1 +tcp
 ```
+
+### Considerations
+* Security
