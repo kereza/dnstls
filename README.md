@@ -44,4 +44,6 @@ dig google.com @127.0.0.1 +tcp
 * Patching and Software Updates - Keep your DNS server software and the underlying operating system up-to-date with the latest security patches.
 * Redundancy and Failover - Implement redundancy and failover mechanisms to maintain DNS availability in case of server or network failures.
 ### Deploy in distributed, microservices-oriented architecture
-asasasas
+* High Availability - you should make sure that you have more than one replica of the DNS-over-TLS proxy. 
+* Static IP and exposure - The DNS-over-TLS proxy service should be exposed via static IP on port 53 (TPC and UDP). The static IP is needed so the other service can be configure to use it. Of course you should make sure that all other services will be able to reach that IP and port on a network level. 
+* Scalability - You can monitor the number of request and based on that decide to scale the service up and down by adding (or removing) more replicas
